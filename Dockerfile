@@ -6,7 +6,6 @@ WORKDIR /app
 
 # 3. Копіюємо package.json і package-lock.json
 COPY package*.json ./
-COPY tsconfig.json ./
 
 # 4. Встановлюємо продакшн-залежності
 RUN npm install
